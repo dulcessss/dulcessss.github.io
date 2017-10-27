@@ -2,45 +2,89 @@
 <html>
   <head>
       <title>PORTFOLIO | Dulce Aguilera</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Material Design Lite -->
+      <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-pink.min.css">
+      <script src="https://code.getmdl.io/1.3.0/material.blue_grey-pink.min.js"></script>
+
+      <!-- Font Awesome -->
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      <!-- Custom Styles -->
+      <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
-    <header>
-      <h1>Dulce Aguilera</h1>
+    <header class="mdl-layout__header mdl-layout__header--transparent">
+      <h1>DULCE AGUILERA</h1>
       <p class="slogan">I Develop</p>
     </header>
-    <main>
-        <div class="project featured-project">
+    <main class="mdl-layout__content mdl-grid">
+        <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+            <div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
             <img src="http://lorempixel.com/output/abstract-q-c-350-260-7.jpg" alt="project screenshot"/>
+          </div>
+          <div class="mdl-cell mdl-cell--7-col">
             <h2>Featured Project Name</h2>
             <p>Project description text</p>
+          </div>
         </div>
 
-        <div class="project">
-            <img src="http://lorempixel.com/output/abstract-q-c-350-260-7.jpg" alt="project screenshot"/>
-            <h2>Project Name</h2>
-            <p>Project description text</p>
-        </div>
+        <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+           <div>
+             <img src="http://lorempixel.com/350/260/abstract/placeholder-2" alt="project screenshot"/>
+           </div>
+           <div class="mdl-card__title">
+             <h2 class="mdl-card__title-text">Project Name</h2>
+           </div>
+           <div class="mdl-card__supporting-text">Project description text</div>
+         </div>
 
-        <div class="project">
-            <img src="http://lorempixel.com/output/abstract-q-c-350-260-7.jpg" alt="project screenshot"/>
-            <h2>Project Name</h2>
-            <p>Project description text</p>
-        </div>
+         <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+           <div>
+             <img src="http://lorempixel.com/350/260/abstract/placeholder-3" alt="project screenshot"/>
+           </div>
+           <div class="mdl-card__title">
+             <h2 class="mdl-card__title-text">Project Name</h2>
+           </div>
+           <div class="mdl-card__supporting-text">Project description text</div>
+         </div>
 
-        <div class="project">
-            <img src="http://lorempixel.com/output/abstract-q-c-350-260-7.jpg" alt="project screenshot"/>
-            <h2>Project Name</h2>
-            <p>Project description text</p>
-        </div>
-
+         <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+           <div>
+             <img src="http://lorempixel.com/350/260/abstract/placeholder-4" alt="project screenshot"/>
+           </div>
+           <div class="mdl-card__title">
+             <h2 class="mdl-card__title-text">Project Name</h2>
+           </div>
+           <div class="mdl-card__supporting-text">Project description text</div>
+         </div>
     </main>
-    <footer>
-      <ul>
-        <li><a href="#linkedin">LinkedIn</a></li>
-        <li><a href="#GithubProfile">GitHub</a></li>
-        <li><a href="#FB">Facebook</a></li>
-        <li><a href="#Twitter">Twitter</a></li>
-        <li><a href="#email">Email</a></li>
+    <footer class="mdl-mini-footer">
+      <ul class="mdl-mini-footer__link-list">
+        <li>
+          <a href="#linkedin">
+          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#GithubProfile">
+          <i class="fa fa-github-square" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#FB">
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#Twitter">
+          <i class="fa fa-twitter-square" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#email">
+          <i class="fa fa-envelope-square" aria-hidden="true"></i>
+        </a>
+        </li>
       </ul>
     </footer>
   </body>
